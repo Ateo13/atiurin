@@ -1,6 +1,16 @@
 package ru.job4j;
+/**
+* Class Класс для приветствия мира
+* @author atiurin
+* @since 01.01.2018
+* @version 1.0
+*/
 
 public class Calculate 
+/**
+* Главный метод, вывод текста на экран
+* @param arg - arg
+*/
 {
     public static void main(String[] args)
         {

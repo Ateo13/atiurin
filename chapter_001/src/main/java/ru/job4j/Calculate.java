@@ -5,14 +5,12 @@ package ru.job4j;
 * @since 01.01.2018
 * @version 1.0
 */
-
 public class Calculate {
 /**
 * Главный метод, вывод текста на экран
 * @param arg - arg
 */
-    public static void main(String[] args)
-        {
+    public static void main(String[] args) {
         System.out.println("Hello World");
          }
 /**

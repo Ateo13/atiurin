@@ -52,3 +52,7 @@ Temporary Items
 -target
 /target
 target/
+
+.idea
+.iml
+*.iml

@@ -8,7 +8,7 @@ package ru.job4j;
 public class Calculate {
 /**
 * Главный метод, вывод текста на экран
-* @param arg - arg
+* @param args - arg
 */
     public static void main(String[] args) {
         System.out.println("Hello World");
@@ -22,3 +22,4 @@ public class Calculate {
         return "Echo, echo, echo : " + name;
     }
 }
+

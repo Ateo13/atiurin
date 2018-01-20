@@ -12,25 +12,12 @@ import static org.junit.Assert.assertThat;
 
 public class MaxTest {
     /**
-     * Test maximum.
+     * Test maximum of two values.
      */
     @Test
     public void whenFirstLessSecond() {
         Max maxim = new Max();
-        int result = maxim.max(1, 2);
-        assertThat(result, is(2));
-    }
-
-    public class MaxTestTwo {
-        /**
-         * Test maximum of three values.
-         */
-        @Test
-        public void whatNumberOfThreeIsBigger() {
-            Max maximum = new Max();
-            int resultOne = maximum.max(1, 2);
-            int resultTwo = maximum.max(2, 3);
-            assertThat(resultTwo, is(3));
-        }
+        int result = maxim.max(2134, 2179);
+        assertThat(result, is(2179));
     }
 }

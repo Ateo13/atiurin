@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 /**
  * @author atiurin
  * @since 20.01.2018
- * @version 1.0
+ * @version 1.1
  */
 
 public class MaxTestTwo {
@@ -17,8 +17,7 @@ public class MaxTestTwo {
     @Test
     public void whatNumberOfThreeIsBigger() {
         Max maximum = new Max();
-        int resultOne = maximum.max(1, 2);
-        int resultTwo = maximum.max(2, 3);
-        assertThat(resultTwo, is(3));
+        int result = maximum.max(Math.max(1, 2), Math.max(2, 3));
+        assertThat(result, is(3));
     }
 }

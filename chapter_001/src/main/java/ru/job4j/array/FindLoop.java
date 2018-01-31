@@ -1,6 +1,16 @@
 package ru.job4j.array;
-
+/**
+ * @author atiurin
+ * @since 31.01.2018
+ * @version 1.0
+ */
 public class FindLoop {
+    /**
+     * Метод ищет определенный элемент в массиве
+     * @param data
+     * @param el
+     * @return
+     */
     public int indexOf(int[] data, int el) {
         int rsl = -1; // если элемента нет в массиве, то возвращаем -1.
         for (int index = 0; index < data.length; index++) {

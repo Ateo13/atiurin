@@ -2,7 +2,7 @@ package ru.job4j.prov;
 /**
  * @author atiurin (xxxAteoxxc@gmail.com)
  * @since 12.02.2018
- * @version 1.0
+ * @version 1.1
  */
 import org.junit.Test;
 
@@ -16,10 +16,10 @@ public class StringFinderTest {
         boolean excepted = true;
         assertThat(result, is(excepted));
     }
-
+    @Test
     public void stringOneNoIncludeStringTwo() {
         StringFinder find = new StringFinder();
-        boolean result = find.contains("Утка", "Конь");
+        boolean result = find.contains("Утка", "Коко");
         boolean excepted = false;
         assertThat(result, is(excepted));
     }

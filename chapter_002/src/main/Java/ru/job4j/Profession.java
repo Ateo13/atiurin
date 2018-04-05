@@ -18,21 +18,4 @@ public class Profession {
     public String getProfession() {
         return profession;
     }
-
-    class Doctor extends Profession {
-        class Diagnose {
-            Diagnose diagnose = new Diagnose();
-            String name = "Cancer";
-
-            public Diagnose heal(Patient patient) {
-                patient.name = name;
-                return diagnose;
-            }
-
-            class Patient {
-                Patient patient = new Patient();
-                String name = "Andrei";
-            }
-        }
-    }
 }
